@@ -44,4 +44,6 @@ public:
     int Abort();
     int Shutdown();
     int Poll();
+
+    int GetEnc() {return enc.GetValue();}
 };
