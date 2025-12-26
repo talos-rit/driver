@@ -19,6 +19,7 @@ target_include_directories(driver PUBLIC
 
 # Link libraries
 target_link_libraries(driver PUBLIC
+    common
     Threads::Threads
 )
 
