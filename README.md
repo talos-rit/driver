@@ -1,4 +1,7 @@
 # Scorbot ER 4PC Driver
+> [!IMPORTANT]
+> This repo is no longer maintained. It has been merged with https://github.com/talos-rit/operator. Please see there for future development
+
 This library provides classes and functions to control the Scorbot ER 4PC robotic arm as part of the RIT Talos project. Since our team does not have a functioning controller for the ER 4PC, this library is intended to allow us to interface with the robot using a Raspberry Pi without the need for the original controller. It is intended to be used in conjunction with the [RIT Talos Operator](https://github.com/talos-rit/operator) project.
 
 *Note: This driver does not currently fully replicate all functionalities of the original Scorbot controller. Some features may be limited or unavailable.*
